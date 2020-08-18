@@ -1,48 +1,59 @@
-.sidebar {
-    margin-top: 50px;
-    width: 200px;
-    background: #eee;
-    min-height: calc(100vh - 50px);
-    float: left;
-    max-height: calc(100vh - 50px);
-    overflow: auto;
-}
-
-.header {
-    background: red;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-}
-
-.nav-item {
-    border-bottom: 1px solid #fff;
-}
-
-.nav-item a {
-    color: #000;
-}
-
-.content {
-    width: calc(100% - 200px);
-    float: left;
-}
-
-.img-content img {
-    width: 500px;
-}
-
-.nav-link:hover {
-    color: red;
-}
-
-.active {
-    color: red;
-}
-
-.header h2 {
-    margin-left: 10px;
-    color: white;
-    padding-top: 4px;
-    text-transform: uppercase;
-}
+  .sidebar {
+      margin-top: 50px;
+      width: 200px;
+      background: #eee;
+      min-height: calc(100vh - 50px);
+      float: left;
+      max-height: calc(100vh - 50px);
+      overflow: auto;
+  }
+  
+  .header {
+      background: red;
+      height: 50px;
+      width: 100%;
+      position: fixed;
+  }
+  
+  .nav-item {
+      border-bottom: 1px solid #fff;
+      background: -webkit-gradient(linear, left top, left bottom, from(#b3a5a5), to(#eee), color-stop(0.75, #eee));
+  }
+  
+  .nav-item a {
+      color: #000;
+  }
+  
+  .content {
+      width: calc(100% - 200px);
+      float: left;
+      margin-top: 50px;
+  }
+  
+  .active {
+      color: white;
+      background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#333), color-stop(0.75, #444));
+  }
+  
+  .active a {
+      color: white;
+  }
+  
+  .img-content img {
+      width: 100%;
+  }
+  
+  .nav-link:hover {
+      color: red;
+  }
+  
+  .active {
+      color: red;
+  }
+  
+  .header h2 {
+      margin-left: 10px;
+      color: white;
+      padding-top: 4px;
+      text-transform: uppercase;
+  }
